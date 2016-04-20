@@ -7,6 +7,7 @@ class DotnetPackages < Formula
 
   bottle do
     cellar :any
+    root_url "https://github.com/glennc/dotnet-packages/releases/download/0.0.1"
     sha256 "ff6584964fff27489c8492b29857d07cc0c43f25dfafa5c88de5d47ea48b7350" => :el_capitan
   end
 
